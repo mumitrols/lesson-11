@@ -38,11 +38,6 @@ public class Smartphone extends Product {
 
     @Override
     public String toString() {
-        return "Smartphone {" +
-                "id=" + super.getId() +
-                ", name='" + super.getName() + '\'' +
-                ", price=" + super.getPrice() +
-                ", manufacturer='" + manufacturer + '\'' +
-                '}';
+        return "Smartphone {" + "id=" + super.getId() + ", name='" + super.getName() + '\'' + ", price=" + super.getPrice() + ", manufacturer='" + manufacturer + '\'' + '}';
     }
 }

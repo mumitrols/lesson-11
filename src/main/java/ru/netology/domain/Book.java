@@ -6,6 +6,7 @@ public class Book extends Product {
     private String author;
 
     public Book(String author) {
+
         this.author = author;
     }
 

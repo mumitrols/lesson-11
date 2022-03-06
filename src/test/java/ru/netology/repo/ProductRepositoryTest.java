@@ -61,38 +61,38 @@ class ProductRepositoryTest {
     }
 
     @Test
-    void test1() {
+    void checkSetAuthorBook() {
         firstBook.setAuthor("Новый автор");
         assertEquals("Новый автор", firstBook.getAuthor());
 
     }
 
     @Test
-    void test2() {
+    void checkSetIdBook() {
         firstBook.setId(100);
         assertEquals(100, firstBook.getId());
 
     }
 
     @Test
-    void test3() {
+    void checkSetIdSmartphone() {
         firstSmartphone.setId(200);
         assertEquals(200, firstSmartphone.getId());
     }
 
     @Test
-    void test4() {
+    void checkSetManufacturerSmartphone() {
         firstSmartphone.setManufacturer("Производитель");
         assertEquals("Производитель", firstSmartphone.getManufacturer());
     }
 
     @Test
-    void test5() {
+    void checkSetNameSmartphone() {
         firstSmartphone.setName("Новый_Смартфон");
         assertEquals("Новый_Смартфон", firstSmartphone.getName());
     }
     @Test
-    void test6() {
+    void checkSetPriceSmartphone() {
         firstSmartphone.setPrice(100);
         assertEquals(100, firstSmartphone.getPrice());
     }
